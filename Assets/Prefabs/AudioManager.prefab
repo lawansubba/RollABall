@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5376134848834471574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5376134848834471569}
+  - component: {fileID: 5376134848834471568}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5376134848834471569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5376134848834471574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 244.45107, y: 286.25543, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5376134848834471568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5376134848834471574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b0e28a361e6584b805dfa49c8c2246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: YellowGemPicked
+    clip: {fileID: 8300000, guid: 20ba38fa9d4603940aacab61d9753b09, type: 3}
+    volume: 100
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BlueGemPicked
+    clip: {fileID: 8300000, guid: e505e38b925316b4384dfce302b8ba3d, type: 3}
+    volume: 100
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BallRolling
+    clip: {fileID: 8300000, guid: e983b33ed9f973647a2ca31f7ad4c15c, type: 3}
+    volume: 100
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BallFallBelowFloor
+    clip: {fileID: 8300000, guid: b22fb05c656b60f4f88a9258a745bde3, type: 3}
+    volume: 100
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
